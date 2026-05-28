@@ -11,7 +11,6 @@ def config():
     user = os.getenv("JELLYFIN_USER")
     password = os.getenv("JELLYFIN_PASSWORD")
     
-    # Mały test bezpieczeństwa - jeśli zapomnisz wypełnić .env, testy od razu rzucą jasny błąd
     if not all([url, user, password]):
         pytest.fail("Błąd: Brakuje zmiennych środowiskowych w pliku .env! Sprawdź .env.example")
         
