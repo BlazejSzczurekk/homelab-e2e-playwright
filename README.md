@@ -23,20 +23,25 @@ Built with **Python**, **Playwright** and **PyTest**
 2. Set up Virtual Environment
    
    python -m venv venv
+   
    #On Windows:
+   
    .\venv\Scripts\activate
+   
    #On Mac/Linux
+   
    source venv/bin/activate
 
-3. Install Dependencies
+4. Install Dependencies
    
    pip install -r requirements.txt
+   
    playwright install
 
-4. Configure Environment Variables
+5. Configure Environment Variables
    
    Create a .env file in root directory (based on .env.example)
 
-5. Run the Tests!
+6. Run the Tests!
 
    pytest [test_name.py]
