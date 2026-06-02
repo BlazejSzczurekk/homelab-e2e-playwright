@@ -13,30 +13,15 @@ Built with **Python**, **Playwright** and **PyTest**
 
 ---
 
-## Project Structure
-
-homelab-e2e-playwright/
-├── pages/               # Page Object Model classes
-│   ├── base_page.py     # Base wrapper for Playwright Page object
-│   ├── login_page.py    # Login screen locators and actions
-│   └── dashboard_page.py# Post-auth dashboard locators
-├── tests/               # Test suites (Happy & Negative paths)
-│   └── test_auth.py
-├── conftest.py          # Global Pytest fixtures & configuration setup
-├── .env.example         # Template for environment variables (safe for Git)
-├── .gitignore           # Prevents uploading venv, reports, and real .env secrets
-├── requirements.txt     # Locked dependencies and versions
-└── README.md            # Project documentation
-
----
-
-Prequisities and Setup
+##Prequisities and Setup
 
 1. Clone the repository:
+   
    git clone https://github.com/BlazejSzczurekk/homelab-e2e-playwright.git
    cd homelab-e2e-playwright
   
 2. Set up Virtual Environment
+   
    python -m venv venv
    #On Windows:
    .\venv\Scripts\activate
@@ -44,6 +29,7 @@ Prequisities and Setup
    source venv/bin/activate
 
 3. Install Dependencies
+   
    pip install -r requirements.txt
    playwright install
 
