@@ -1,6 +1,6 @@
 # Homelab E2E Automated Testing Framework
 
-An automated End-to-Edn testing framework designed for self-hosted **JellyFin** media server. This project shows QA automation practices.
+An automated End-to-End testing framework designed for self-hosted **JellyFin** media server. This project shows QA automation practices.
 
 Built with **Python**, **Playwright** and **PyTest**
 
