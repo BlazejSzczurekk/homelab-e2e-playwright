@@ -13,7 +13,7 @@ Built with **Python**, **Playwright** and **PyTest**
 
 ---
 
-##Prequisities and Setup
+## Prequisities and Setup
 
 1. Clone the repository:
    
